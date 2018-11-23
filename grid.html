@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="links/common.css">
+		
+		<title>Process Innovation - Tableau</title>
+		
+		<style type="text/css">
+			.page {
+				display: flex;
+				flex-direction:column;
+				max-width: 850px; /* el ancho máximo del wrapper externo */
+				
+				/* styling */
+				padding: 10px 10px 10px 10px;
+				margin-left:auto;
+				margin-right:auto;
+				background: white;
+				border: 5px solid white;
+				border-radius: 10px;	
+			}
+			header {
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				
+				border: 5px solid black;
+				border-radius: 10px;				
+				background-color: black;
+				height: 70px;
+			}
+			section {
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				margin: 10px 0 10px 0; /* compatible con IE11 -no así "grid-gap"- */
+			}
+			footer {
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				border-top: 3px solid grey;
+				border-radius: 10px;
+			}
+			.container {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				height: 70px;
+			}
+			.one_h {
+				flex: 0 0 25%; /* ocupa el 25% del ancho del contenedor */
+			}
+			.two_h {
+				flex: auto; /* ocupa lo que sobra de las otras 2 columnas */
+			}
+			.three_h {
+				flex: 0 0 25%; /* ocupa el 25% del ancho del contenedor */
+			}
+			.one_f {
+				flex: 0 0 auto; /* se ajusta al contenido */
+			}
+			.two_f {
+				flex: auto;
+			}
+			.three_f {
+				flex: 0 0 auto; /* se ajusta al contenido */
+			}
+		</style>		
+	</head>
+	
+	<body>
+		<div class="page">
+			<header>
+				<div class="container">
+					<div class="one_h"><img src="links/logo.png" alt="logo_top"></div>
+					<div class="two_h" style="text-align: center;"><p class="top_header">Novedades S...A</p></div>
+					<div class="three_h" style="text-align: right;"><p class="date">Septiembre 2018</p></div>
+				</div>			
+			</header>
+			
+			<section>				
+				<!-- 1 Column Text : BEGIN -->
+				<p class="title">Tableau: nueva herramienta de "Data Discovery"</p>
+				<p class="body">El término "Data Discovery" hace referencia a actividades
+				de control de calidad de datos, limpieza y perfilado de
+				los mismos para encontrar tendencias, gaps o cualquier
+				otro hito que permita tomar decisiones de manera
+				analítica.<br><br>
+				Con <b>Tableau</b>, buscaremos ahorrar tiempo y cometer
+				menos errores, utilizando los mejores datos para análisis
+				de negocios.<br>
+				Los debates y las instantáneas de visualizaciones
+				permitirán que los equipos tengan conversaciones más
+				inteligentes. Además, se podrán visualizar rutas de
+				transporte personalizadas, y otras redes, gracias a la
+				compatibilidad con formas geométricas lineales.<br><br></p>
+				<!-- 1 Column Text : END -->
+				<!-- Image : BEGIN -->
+				<img class="default" style="width: 100%; height: auto;" src="links/pi_img_2.jpg" alt="Dashboard_1">
+				<br>
+				<img class="default" style="width: 100%; height: auto;" src="links/pi_img_3.png" alt="Dashboard_2">
+				<p class="caption"><br>Ejemplo de dashboard en Tableau<br><br></p>				  
+				<!-- Image : END -->
+				<!-- 1 Column Text : BEGIN -->
+				<p class="title">Capacitación en Tableau</p>
+				<p class="body">Por otra parte, y para poder hacer un uso intensivo de la
+				herramienta, nos estuvimos capacitando en Blue Patagon
+				(master resellers de Tableau en Argentina).<br><br></p>
+				<!-- 1 Column Text : END -->
+				<!-- Image : BEGIN -->
+				<img class="default" style="width: 100%; height: auto;" src="links/pi_img_1.jpg" alt="Training">
+				<p class="caption"><br>El equipo de IT&amp;PI con los capacitadores y otros asistentes<br><br></p>
+				<!-- Image : END -->
+				<!-- 1 Column Text : BEGIN -->
+				<p class="body">Blue Patagon, por su parte, fue convocado por el área de
+				Process Innovation para presentar Tableau en nuestras
+				oficinas. Liderados por el Ingeniero Eduardo Azzola,
+				hicieron una introducción que nos permitió entender los
+				alcances y posibilidades de este software aplicados a la
+				realidad de la compañía.<br><br></p>
+				<!-- 1 Column Text : END -->
+				<!-- Video : BEGIN -->
+				<video src="links/pi_img_4.mp4" class="default" style="width: 100%; height: auto;" id="local_training" controls="controls">Sorry, your browser does not support this video player.</video>
+				<p class="caption"><br>[Video] Parte de la capacitación</p>
+				<br>
+				<!-- Video : END -->
+			</section>
+			
+			<footer>
+				<div class="container">
+					<div class="one_f">
+						<a href="mailto:mail@mail.com">
+							<img src="links/inbox.png" alt="logo">
+						</a>
+					</div>
+					<div class="two_f">
+						<p class="bot_header" style="margin-left: 10px;">Buzón de Sugerencias<br></p>
+						<p class="bot_body" style="margin-left: 10px;">Envianos tus comentarios y sugerencias. Es muy importante para nosotros!</p>
+					</div>
+					<div class="three_f">
+						<img src="links/logo2.png" alt="logo_bot">
+					</div>
+				</div>	
+			</footer>
+		</div>
+	
+	</body>
+</html>
